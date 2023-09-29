@@ -21,7 +21,7 @@ resource "aws_key_pair" "ec2_key_pair" {
   }
 }
 
-resource "local_file" "pvt_key_pair" {
-  content  = tls_private_key.private_key.private_key_pem
-  filename = "${path.module}/${aws_key_pair.ec2_key_pair.key_name}.pem"
-}
+#resource "local_file" "pvt_key_pair" {
+#  content  = tls_private_key.private_key.private_key_pem
+#  filename = "${path.module}/${aws_key_pair.ec2_key_pair.key_name}.pem"
+#}
