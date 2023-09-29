@@ -1,0 +1,6 @@
+name: aws-poc
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: PoC with pulumi to create VPC and EC2.

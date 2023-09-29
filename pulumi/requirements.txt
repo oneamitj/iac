@@ -1,0 +1,5 @@
+pulumi==3.86.0
+pulumi-aws==6.2.1
+ipaddress==1.0.23
+pulumi-tls==4.11.0
+requests==2.31.0

@@ -1,0 +1,31 @@
+# IntelliJ IDE related
+.idea/
+*.iml
+*.iws
+
+# Mac system files
+.DS_Store
+
+# Python related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.egg-info/
+dist/
+build/
+*.egg
+*.venv/
+*.virtualenv/
+venv/
+virtualenv/
+
+# Terraform related
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+.terraform/
